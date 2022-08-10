@@ -1,5 +1,5 @@
 {
-  "SetHotbar": [
+  "PLAYERACTION:SetHotbar": [
     [
       {
         "name": "items",
@@ -19,10 +19,8 @@
       }
     ]
   ],
-  "CloseInv": [
-    []
-  ],
-  "GiveItems": [
+  "PLAYERACTION:CloseInv": [[]],
+  "PLAYERACTION:GiveItems": [
     [
       {
         "name": "items",
@@ -32,7 +30,7 @@
       }
     ]
   ],
-  "SetAtkSpeed": [
+  "PLAYERACTION:SetAtkSpeed": [
     [
       {
         "name": "amount",
@@ -42,7 +40,7 @@
       }
     ]
   ],
-  "SetMenuItem": [
+  "PLAYERACTION:SetMenuItem": [
     [
       {
         "name": "slot",
@@ -58,7 +56,7 @@
       }
     ]
   ],
-  "SetArmor": [
+  "PLAYERACTION:SetArmor": [
     [
       {
         "name": "head",
@@ -86,7 +84,7 @@
       }
     ]
   ],
-  "AddInvRow": [
+  "PLAYERACTION:AddInvRow": [
     [
       {
         "name": "items",
@@ -106,7 +104,7 @@
       }
     ]
   ],
-  "GiveExp": [
+  "PLAYERACTION:GiveExp": [
     [
       {
         "name": "amount",
@@ -116,7 +114,7 @@
       }
     ]
   ],
-  "PurgeVars": [
+  "SETVAR:PurgeVars": [
     [
       {
         "name": "varNames",
@@ -126,7 +124,7 @@
       }
     ]
   ],
-  "Damage": [
+  "PLAYERACTION:Damage": [
     [
       {
         "name": "amount",
@@ -142,7 +140,7 @@
       }
     ]
   ],
-  "SetExp": [
+  "PLAYERACTION:SetExp": [
     [
       {
         "name": "amount",
@@ -152,7 +150,7 @@
       }
     ]
   ],
-  "ReplaceItems": [
+  "PLAYERACTION:ReplaceItems": [
     [
       {
         "name": "replaceables",
@@ -176,7 +174,7 @@
       }
     ]
   ],
-  "ActionBar": [
+  "PLAYERACTION:ActionBar": [
     [
       {
         "name": "msg",
@@ -186,17 +184,17 @@
       }
     ]
   ],
-  "SendMessage": [
+  "PLAYERACTION:SendMessage": [
     [
       {
         "name": "msg",
-        "type": "TXT",
+        "type": "ANY",
         "repeating": true,
         "defaultValue": null
       }
     ]
   ],
-  "PlaySoundSeq": [
+  "PLAYERACTION:PlaySoundSeq": [
     [
       {
         "name": "sounds",
@@ -218,7 +216,7 @@
       }
     ]
   ],
-  "SetSlotItem": [
+  "PLAYERACTION:SetSlotItem": [
     [
       {
         "name": "item",
@@ -234,7 +232,7 @@
       }
     ]
   ],
-  "AbsoluteValue": [
+  "SETVAR:AbsoluteValue": [
     [
       {
         "name": "var",
@@ -250,7 +248,7 @@
       }
     ]
   ],
-  "Root": [
+  "SETVAR:Root": [
     [
       {
         "name": "var",
@@ -272,7 +270,7 @@
       }
     ]
   ],
-  "%": [
+  "SETVAR:%": [
     [
       {
         "name": "var",
@@ -294,7 +292,7 @@
       }
     ]
   ],
-  "SetInventory": [
+  "PLAYERACTION:SetInventory": [
     [
       {
         "name": "items",
@@ -332,7 +330,7 @@
       }
     ]
   ],
-  "Heal": [
+  "PLAYERACTION:Heal": [
     [
       {
         "name": "amount",
@@ -342,7 +340,7 @@
       }
     ]
   ],
-  "SetSpeed": [
+  "PLAYERACTION:SetSpeed": [
     [
       {
         "name": "speed",
@@ -352,7 +350,7 @@
       }
     ]
   ],
-  "+": [
+  "SETVAR:+": [
     [
       {
         "name": "var",
@@ -368,7 +366,7 @@
       }
     ]
   ],
-  "ExpandInv": [
+  "PLAYERACTION:ExpandInv": [
     [
       {
         "name": "items",
@@ -378,7 +376,7 @@
       }
     ]
   ],
-  "SetInvName": [
+  "PLAYERACTION:SetInvName": [
     [
       {
         "name": "invName",
@@ -388,7 +386,7 @@
       }
     ]
   ],
-  "-": [
+  "SETVAR:-": [
     [
       {
         "name": "var",
@@ -404,7 +402,7 @@
       }
     ]
   ],
-  "/": [
+  "SETVAR:/": [
     [
       {
         "name": "var",
@@ -420,7 +418,7 @@
       }
     ]
   ],
-  "-=": [
+  "SETVAR:-=": [
     [
       {
         "name": "var",
@@ -432,19 +430,19 @@
         "name": "nums",
         "type": "NUM",
         "repeating": true,
-        "defaultValue": [
-          1
+        "defaultValue":
+        [
+          {
+            "val": 1,
+            "type": "NUM"
+          }
         ]
       }
     ]
   ],
-  "SetInventoryKept": [
-    []
-  ],
-  "SetAllowFlight": [
-    []
-  ],
-  "SetItemCooldown": [
+  "PLAYERACTION:SetInventoryKept": [[]],
+  "PLAYERACTION:SetAllowFlight": [[]],
+  "PLAYERACTION:SetItemCooldown": [
     [
       {
         "name": "item",
@@ -460,7 +458,7 @@
       }
     ]
   ],
-  "SendHover": [
+  "PLAYERACTION:SendHover": [
     [
       {
         "name": "msg",
@@ -476,7 +474,7 @@
       }
     ]
   ],
-  "SetMaxHealth": [
+  "PLAYERACTION:SetMaxHealth": [
     [
       {
         "name": "amount",
@@ -486,7 +484,7 @@
       }
     ]
   ],
-  "SetAirTicks": [
+  "PLAYERACTION:SetAirTicks": [
     [
       {
         "name": "ticks",
@@ -496,7 +494,7 @@
       }
     ]
   ],
-  "=": [
+  "SETVAR:=": [
     [
       {
         "name": "var",
@@ -512,10 +510,8 @@
       }
     ]
   ],
-  "LoadInv": [
-    []
-  ],
-  "GivePotion": [
+  "PLAYERACTION:LoadInv": [[]],
+  "PLAYERACTION:GivePotion": [
     [
       {
         "name": "effects",
@@ -525,7 +521,7 @@
       }
     ]
   ],
-  "ParseNumber": [
+  "SETVAR:ParseNumber": [
     [
       {
         "name": "var",
@@ -541,10 +537,8 @@
       }
     ]
   ],
-  "ClearPotions": [
-    []
-  ],
-  "Exponent": [
+  "PLAYERACTION:ClearPotions": [[]],
+  "SETVAR:Exponent": [
     [
       {
         "name": "var",
@@ -566,7 +560,7 @@
       }
     ]
   ],
-  "PlaySound": [
+  "PLAYERACTION:PlaySound": [
     [
       {
         "name": "sounds",
@@ -582,7 +576,7 @@
       }
     ]
   ],
-  "RemoveItems": [
+  "PLAYERACTION:RemoveItems": [
     [
       {
         "name": "removals",
@@ -592,7 +586,7 @@
       }
     ]
   ],
-  "SetTabListInfo": [
+  "PLAYERACTION:SetTabListInfo": [
     [
       {
         "name": "tabInfo",
@@ -602,10 +596,8 @@
       }
     ]
   ],
-  "SaveInv": [
-    []
-  ],
-  "SetHealth": [
+  "PLAYERACTION:SaveInv": [[]],
+  "PLAYERACTION:SetHealth": [
     [
       {
         "name": "amount",
@@ -615,7 +607,7 @@
       }
     ]
   ],
-  "EnableBlocks": [
+  "PLAYERACTION:EnableBlocks": [
     [
       {
         "name": "blocks",
@@ -625,7 +617,7 @@
       }
     ]
   ],
-  "OpenBlockInv": [
+  "PLAYERACTION:OpenBlockInv": [
     [
       {
         "name": "loc",
@@ -635,10 +627,10 @@
       }
     ]
   ],
-  "SetCollidable": [
+  "PLAYERACTION:SetCollidable": [
     []
   ],
-  "RemoveBossBar": [
+  "PLAYERACTION:RemoveBossBar": [
     [
       {
         "name": "index",
@@ -648,7 +640,7 @@
       }
     ]
   ],
-  "SetFallDistance": [
+  "PLAYERACTION:SetFallDistance": [
     [
       {
         "name": "distance",
@@ -658,7 +650,7 @@
       }
     ]
   ],
-  "Logarithm": [
+  "SETVAR:Logarithm": [
     [
       {
         "name": "var",
@@ -680,7 +672,7 @@
       }
     ]
   ],
-  "SetEquipment": [
+  "PLAYERACTION:SetEquipment": [
     [
       {
         "name": "item",
@@ -690,7 +682,7 @@
       }
     ]
   ],
-  "ClampNumber": [
+  "SETVAR:ClampNumber": [
     [
       {
         "name": "var",
@@ -738,7 +730,7 @@
       }
     ]
   ],
-  "SetInvulTicks": [
+  "PLAYERACTION:SetInvulTicks": [
     [
       {
         "name": "ticks",
@@ -748,7 +740,7 @@
       }
     ]
   ],
-  "SetCursorItem": [
+  "PLAYERACTION:SetCursorItem": [
     [
       {
         "name": "item",
@@ -758,10 +750,10 @@
       }
     ]
   ],
-  "SetDropsEnabled": [
+  "PLAYERACTION:SetDropsEnabled": [
     []
   ],
-  "RemovePotion": [
+  "PLAYERACTION:RemovePotion": [
     [
       {
         "name": "effects",
@@ -771,7 +763,7 @@
       }
     ]
   ],
-  "SetAbsorption": [
+  "PLAYERACTION:SetAbsorption": [
     [
       {
         "name": "amount",
@@ -781,7 +773,7 @@
       }
     ]
   ],
-  "RandomValue": [
+  "SETVAR:RandomValue": [
     [
       {
         "name": "var",
@@ -797,7 +789,7 @@
       }
     ]
   ],
-  "SetBossBar": [
+  "PLAYERACTION:SetBossBar": [
     [
       {
         "name": "title",
@@ -825,7 +817,7 @@
       }
     ]
   ],
-  "SetFireTicks": [
+  "PLAYERACTION:SetFireTicks": [
     [
       {
         "name": "ticks",
@@ -835,7 +827,7 @@
       }
     ]
   ],
-  "ShowInv": [
+  "PLAYERACTION:ShowInv": [
     [
       {
         "name": "items",
@@ -845,7 +837,7 @@
       }
     ]
   ],
-  "RemoveInvRow": [
+  "PLAYERACTION:RemoveInvRow": [
     [
       {
         "name": "rows",
@@ -855,7 +847,7 @@
       }
     ]
   ],
-  "SetSlot": [
+  "PLAYERACTION:SetSlot": [
     [
       {
         "name": "slot",
@@ -865,7 +857,7 @@
       }
     ]
   ],
-  "DisableBlocks": [
+  "PLAYERACTION:DisableBlocks": [
     [
       {
         "name": "blocks",
@@ -875,7 +867,7 @@
       }
     ]
   ],
-  "SetFoodLevel": [
+  "PLAYERACTION:SetFoodLevel": [
     [
       {
         "name": "amount",
@@ -885,7 +877,7 @@
       }
     ]
   ],
-  "SendMessageSeq": [
+  "PLAYERACTION:SendMessageSeq": [
     [
       {
         "name": "msgs",
@@ -901,10 +893,10 @@
       }
     ]
   ],
-  "ClearInv": [
+  "PLAYERACTION:ClearInv": [
     []
   ],
-  "SetFreezeTicks": [
+  "PLAYERACTION:SetFreezeTicks": [
     [
       {
         "name": "ticks",
@@ -914,7 +906,7 @@
       }
     ]
   ],
-  "+=": [
+  "SETVAR:+=": [
     [
       {
         "name": "var",
@@ -926,13 +918,17 @@
         "name": "nums",
         "type": "NUM",
         "repeating": true,
-        "defaultValue": [
-          1
+        "defaultValue":
+        [
+          {
+            "val": 1,
+            "type": "NUM"
+          }
         ]
       }
     ]
   ],
-  "SetSaturation": [
+  "PLAYERACTION:SetSaturation": [
     [
       {
         "name": "amount",
@@ -942,7 +938,7 @@
       }
     ]
   ],
-  "x": [
+  "SETVAR:x": [
     [
       {
         "name": "var",
@@ -958,7 +954,7 @@
       }
     ]
   ],
-  "SendTitle": [
+  "PLAYERACTION:SendTitle": [
     [
       {
         "name": "title",
@@ -992,10 +988,10 @@
       }
     ]
   ],
-  "InstantRespawn": [
+  "PLAYERACTION:InstantRespawn": [
     []
   ],
-  "StopSound": [
+  "PLAYERACTION:StopSound": [
     [
       {
         "name": "sounds",
@@ -1005,7 +1001,7 @@
       }
     ]
   ],
-  "ClearItems": [
+  "PLAYERACTION:ClearItems": [
     [
       {
         "name": "items",
@@ -1015,7 +1011,7 @@
       }
     ]
   ],
-  "DisplayHologram": [
+  "PLAYERACTION:DisplayHologram": [
     [
       {
         "name": "text",
@@ -1031,7 +1027,7 @@
       }
     ]
   ],
-  "WrapNumber": [
+  "SETVAR:WrapNumber": [
     [
       {
         "name": "var",
@@ -1079,7 +1075,7 @@
       }
     ]
   ],
-  "Average": [
+  "SETVAR:Average": [
     [
       {
         "name": "var",
@@ -1095,7 +1091,7 @@
       }
     ]
   ],
-  "RandomNumber": [
+  "SETVAR:RandomNumber": [
     [
       {
         "name": "var",
@@ -1117,7 +1113,7 @@
       }
     ]
   ],
-  "Round": [
+  "SETVAR:Round": [
     [
       {
         "name": "var",
@@ -1139,7 +1135,7 @@
       }
     ]
   ],
-  "Text": [
+  "SETVAR:Text": [
     [
       {
         "name": "var",
@@ -1148,14 +1144,14 @@
         "defaultValue": null
       },
       {
-        "name": "parseVal",
+        "name": "parseVals",
         "type": "ANY",
-        "repeating": false,
+        "repeating": true,
         "defaultValue": null
       }
     ]
   ],
-  "ReplaceText": [
+  "SETVAR:ReplaceText": [
     [
       {
         "name": "var",
@@ -1183,7 +1179,7 @@
       }
     ]
   ],
-  "RemoveText": [
+  "SETVAR:RemoveText": [
     [
       {
         "name": "var",
@@ -1205,7 +1201,7 @@
       }
     ]
   ],
-  "TrimText": [
+  "SETVAR:TrimText": [
     [
       {
         "name": "var",
@@ -1233,7 +1229,7 @@
       }
     ]
   ],
-  "SplitText": [
+  "SETVAR:SplitText": [
     [
       {
         "name": "var",
@@ -1255,28 +1251,12 @@
       }
     ]
   ],
-  "JoinText": [
+  "SETVAR:JoinText": [
     [
-
+      
     ]
   ],
-  "SetCase": [
-    [
-      {
-        "name": "var",
-        "type": "VAR",
-        "repeating": false,
-        "defaultValue": null
-      },
-      {
-        "name": "txt",
-        "type": "TXT",
-        "repeating": false,
-        "defaultValue": null
-      }
-    ]
-  ],
-  "TranslateColors": [
+  "SETVAR:SetCase": [
     [
       {
         "name": "var",
@@ -1292,7 +1272,7 @@
       }
     ]
   ],
-  "TextLength": [
+  "SETVAR:TranslateColors": [
     [
       {
         "name": "var",
@@ -1308,7 +1288,23 @@
       }
     ]
   ],
-  "RepeatText": [
+  "SETVAR:TextLength": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "txt",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:RepeatText": [
     [
       {
         "name": "var",
@@ -1325,6 +1321,877 @@
       {
         "name": "amount",
         "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:FormatTime": [
+    [ 
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "time",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "format",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]  
+  ],
+  "SETVAR:CreateList": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "list",
+        "type": "ANY",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:AppendValue": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "values",
+        "type": "ANY",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:AppendList": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "lists",
+        "type": "LIST",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:GetListValue": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "list",
+        "type": "LIST",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "index",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:SetListValue": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "index",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "value",
+        "type": "ANY",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:GetValueIndex": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "list",
+        "type": "LIST",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "value",
+        "type": "ANY",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "SETVAR:ListLength": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "list",
+        "type": "LIST",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "GAMEACTION:SpawnMob": [
+    [
+      {
+        "name": "mob",
+        "type": "ITEM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "health",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "effects",
+        "type": "POT",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "equipment",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": [null, null, null, null, null, null]
+      }
+    ]
+  ],
+  "GAMEACTION:SpawnItem": [
+    [
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "GAMEACTION:SpawnVehicle": [
+    [
+      {
+        "name": "vehicle",
+        "type": "ITEM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "GAMEACTION:SpawnExpOrb": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "amount",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 1
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "GAMEACTION:Explosion": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "power",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 4
+      }
+    ]
+  ],
+  "GAMEACTION:SpawnTNT": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "power",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 4
+      },
+      {
+        "name": "fuse",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 80
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "GAMEACTION:SpawnFangs": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:IsSneaking": [[]],
+  "IFPLAYER:IsSprinting": [[]],
+  "IFPLAYER:IsGliding": [[]],
+  "IFPLAYER:IsFlying": [[]],
+  "IFPLAYER:IsGrounded": [[]],
+  "IFPLAYER:IsSwimming": [[]],
+  "IFPLAYER:IsBlocking": [[]],
+  "IFPLAYER:IsLookingAt": [
+    [
+      {
+        "name": "blocks",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "100",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ],
+    [
+      {
+        "name": "locs",
+        "type": "LOC",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "100",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:StandingOn": [
+    [
+      {
+        "name": "blocks",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ],
+    [
+      {
+        "name": "locs",
+        "type": "LOC",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:IsNear": [
+    [
+      {
+        "name": "locs",
+        "type": "LOC",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "radius",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 5
+      }
+    ]
+  ],
+  "IFPLAYER:InWorldBorder": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:IsHolding": [
+    [
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:HasItem": [
+    [
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:IsWearing": [
+    [
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:NoItemCooldown": [
+    [
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:HasSlotItem": [
+    [
+      {
+        "name": "slots",
+        "type": "NUM",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:MenuSlotEquals": [
+    [
+      {
+        "name": "slots",
+        "type": "NUM",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:CursorItem": [
+    [
+      {
+        "name": "items",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:NameEquals": [
+    [
+      {
+        "name": "names",
+        "type": "TXT",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFPLAYER:SlotEquals": [
+    [
+      {
+        "name": "slot",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:=": [
+    [
+      {
+        "name": "value",
+        "type": "ANY",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checks",
+        "type": "ANY",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:!=": [
+    [
+      {
+        "name": "value",
+        "type": "ANY",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checks",
+        "type": "ANY",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:>": [
+    [
+      {
+        "name": "num",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "check",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:>=": [
+    [
+      {
+        "name": "num",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "check",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:<": [
+    [
+      {
+        "name": "num",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "check",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:<=": [
+    [
+      {
+        "name": "num",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "check",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:InRange": [
+    [
+      {
+        "name": "value",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "lower",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "upper",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ],
+    [
+      {
+        "name": "value",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "lower",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "upper",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:LocIsNear": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checkLocs",
+        "type": "LOC",
+        "repeating": true,
+        "defaultValue": null
+      },
+      {
+        "name": "radius",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:Contains": [
+    [
+      {
+        "name": "txt",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checkTxts",
+        "type": "TXT",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:StartsWith": [
+    [
+      {
+        "name": "txt",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checkTxts",
+        "type": "TXT",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:EndsWith": [
+    [
+      {
+        "name": "txt",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checkTxts",
+        "type": "TXT",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:VarExists": [
+    [
+      {
+        "name": "var",
+        "type": "VAR",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:VarIsType": [
+    [    
+      {
+        "name": "value",
+        "type": "ANY",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:ItemEquals": [
+    [
+      {
+        "name": "item",
+        "type": "ITEM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "checkItems",
+        "type": "ITEM",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:ListContains": [
+    [
+      {
+        "name": "list",
+        "type": "LIST",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "values",
+        "type": "ANY",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "IFVAR:ListValueEq": [
+    [
+      {
+        "name": "list",
+        "type": "LIST",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "index",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "values",
+        "type": "ANY",
+        "repeating": true,
+        "defaultValue": null
+      }
+    ]
+  ],
+   "GAMEACTION:Lightning": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      }
+    ]
+  ],
+  "GAMEACTION:LaunchProj": [
+    [
+      {
+        "name": "projectile",
+        "type": "ITEM",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "customName",
+        "type": "TXT",
+        "repeating": false,
+        "defaultValue": null
+      },
+      {
+        "name": "speed",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 1
+      },
+      {
+        "name": "inaccuracy",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 1
+      }
+    ]
+  ],
+   "GAMEACTION:SpawnPotionCloud": [
+    [
+      {
+        "name": "loc",
+        "type": "LOC",
+        "repeating": false,
+        "defaultValue": null
+      },
+       {
+        "name": "potion",
+        "type": "POT",
+        "repeating": true,
+        "defaultValue": null
+      },
+       {
+        "name": "radius",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 3
+      },
+       {
+        "name": "duration",
+        "type": "NUM",
+        "repeating": false,
+        "defaultValue": 200
+      }
+    ]
+  ],
+   "GAMEACTION:Firework": [
+    [
+      {
+        "name": "firework",
+        "type": "ITEM",
+        "repeating": false,
+        "defaultValue": null
+      },
+       {
+        "name": "loc",
+        "type": "LOC",
         "repeating": false,
         "defaultValue": null
       }
